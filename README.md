@@ -1,6 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # vue3Example
 =======
+=======
+>>>>>>> origin/master
 # vue
 
 This template should help get you started developing with Vue 3 in Vite.
@@ -36,4 +39,7 @@ npm run dev
 ```sh
 npm run build
 ```
+<<<<<<< HEAD
 >>>>>>> 0587795 (deploy code)
+=======
+>>>>>>> origin/master

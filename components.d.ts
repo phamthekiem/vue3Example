@@ -14,6 +14,10 @@ declare module 'vue' {
     AddEditRoleDialog: typeof import('./src/components/dialogs/AddEditRoleDialog.vue')['default']
     AddPaymentMethodDialog: typeof import('./src/components/dialogs/AddPaymentMethodDialog.vue')['default']
     AddRoleModal: typeof import('./src/components/account/AddRoleModal.vue')['default']
+<<<<<<< HEAD
+=======
+    AppBarSearch: typeof import('./src/@core/components/AppBarSearch.vue')['default']
+>>>>>>> origin/master
     AppCardActions: typeof import('./src/@core/components/cards/AppCardActions.vue')['default']
     AppCardCode: typeof import('./src/@core/components/cards/AppCardCode.vue')['default']
     AppDateTimePicker: typeof import('./src/@core/components/app-form-elements/AppDateTimePicker.vue')['default']
