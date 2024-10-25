@@ -21,11 +21,7 @@
     </b-navbar>
 
     <main class="mt-3">
-<<<<<<< HEAD
       <h2>Homepage 121</h2>
-=======
-      <h2>Homepage</h2>
->>>>>>> origin/master
     </main>
   </div>
 </template>

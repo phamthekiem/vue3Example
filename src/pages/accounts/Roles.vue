@@ -29,14 +29,14 @@
       <EditRoleModal 
         v-model="showEditRoleModal" 
         @update:isVisible="showEditRoleModal = $event"
-        :role="selectedRole || {}"
+        :role="selectedRole || {} as Role"
       />
 
       <!-- Delete role modal -->
       <DeleteRoleModal 
         v-model="showDeleteRoleModal" 
         @update:isVisible="showDeleteRoleModal = $event"
-        :role="selectedRoleDelete || {}"
+        :role="selectedRoleDelete || {} as Role"
         :deleteModalShow="showDeleteRoleModal"
       />
     </div>
