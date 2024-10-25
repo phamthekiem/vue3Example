@@ -61,8 +61,10 @@
         </div>
       </div>
 
-      <b-button variant="secondary" @click="close">Cancel</b-button>
-      <b-button variant="primary" @click="updateRole">Update</b-button>
+      <div class="d-flex justify-content-center gap-2">
+        <b-button variant="secondary" @click="close">Cancel</b-button>
+        <b-button variant="primary" @click="updateRole">Update</b-button>
+      </div>
     </div>
   </b-modal>
 </template>
@@ -265,7 +267,7 @@ export default defineComponent({
 }
 
 .list-permission .children-permission {
-  max-block-size: 50vh;
+  max-block-size: 40vh;
   overflow-y: auto;
 }
 </style>
